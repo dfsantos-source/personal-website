@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  background-image: url(./static/background_la.jpg)
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 20%;
+}
+
+.links {
+  width: 1em;
+}
+
+
+.contact-me {
+  border-radius: 0.4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.email-button {
+  margin-top: 3em;
+  padding-right: 3em;
+  padding-left: 3em;
+  background-color: #eea263;
+  border-radius: 0.4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 3em;
+}
+.bio {
+  text-align: center;
+ 
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  
+  min-height: 55em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
